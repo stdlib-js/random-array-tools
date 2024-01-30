@@ -35,20 +35,32 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) array creation function tools.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-array-tools
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { binary, binaryFactory, nullary, ternary, ternaryFactory, unary, unaryFactory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@esm/index.mjs';
+var ns = require( '@stdlib/random-array-tools' );
 ```
 
 #### ns
@@ -64,6 +76,18 @@ The namespace contains the following:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`binaryFactory( prng, dtypes, dtype )`][@stdlib/random/array/tools/binary-factory]</span><span class="delimiter">: </span><span class="description">create a factory function for generating pseudorandom values drawn from a binary PRNG.</span>
+-   <span class="signature">[`binary( prng, dtypes, dtype )`][@stdlib/random/array/tools/binary]</span><span class="delimiter">: </span><span class="description">constructor for creating arrays filled with pseudorandom values drawn from a binary PRNG.</span>
+-   <span class="signature">[`nullary( prng, dtypes, dtype )`][@stdlib/random/array/tools/nullary]</span><span class="delimiter">: </span><span class="description">constructor for creating arrays filled with pseudorandom values drawn from a nullary PRNG.</span>
+-   <span class="signature">[`ternaryFactory( prng, dtypes, dtype )`][@stdlib/random/array/tools/ternary-factory]</span><span class="delimiter">: </span><span class="description">create a factory function for generating pseudorandom values drawn from a ternary PRNG.</span>
+-   <span class="signature">[`ternary( prng, dtypes, dtype )`][@stdlib/random/array/tools/ternary]</span><span class="delimiter">: </span><span class="description">constructor for creating arrays filled with pseudorandom values drawn from a ternary PRNG.</span>
+-   <span class="signature">[`unaryFactory( prng, dtypes, dtype )`][@stdlib/random/array/tools/unary-factory]</span><span class="delimiter">: </span><span class="description">create a factory function for generating pseudorandom values drawn from a unary PRNG.</span>
+-   <span class="signature">[`unary( prng, dtypes, dtype )`][@stdlib/random/array/tools/unary]</span><span class="delimiter">: </span><span class="description">constructor for creating arrays filled with pseudorandom values drawn from a unary PRNG.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -78,20 +102,11 @@ The namespace contains the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/random-array-tools' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -115,7 +130,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -177,6 +192,24 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/random-array-tools/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/random-array-tools/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/random/array/tools/binary-factory]: https://github.com/stdlib-js/random-array-tools-binary-factory
+
+[@stdlib/random/array/tools/binary]: https://github.com/stdlib-js/random-array-tools-binary
+
+[@stdlib/random/array/tools/nullary]: https://github.com/stdlib-js/random-array-tools-nullary
+
+[@stdlib/random/array/tools/ternary-factory]: https://github.com/stdlib-js/random-array-tools-ternary-factory
+
+[@stdlib/random/array/tools/ternary]: https://github.com/stdlib-js/random-array-tools-ternary
+
+[@stdlib/random/array/tools/unary-factory]: https://github.com/stdlib-js/random-array-tools-unary-factory
+
+[@stdlib/random/array/tools/unary]: https://github.com/stdlib-js/random-array-tools-unary
+
+<!-- </toc-links> -->
 
 </section>
 
