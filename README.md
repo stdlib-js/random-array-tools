@@ -76,6 +76,18 @@ The namespace contains the following:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`binaryFactory( prng, dtypes, dtype )`][@stdlib/random/array/tools/binary-factory]</span><span class="delimiter">: </span><span class="description">create a factory function for generating pseudorandom values drawn from a binary PRNG.</span>
+-   <span class="signature">[`binary( prng, dtypes, dtype )`][@stdlib/random/array/tools/binary]</span><span class="delimiter">: </span><span class="description">constructor for creating arrays filled with pseudorandom values drawn from a binary PRNG.</span>
+-   <span class="signature">[`nullary( prng, dtypes, dtype )`][@stdlib/random/array/tools/nullary]</span><span class="delimiter">: </span><span class="description">constructor for creating arrays filled with pseudorandom values drawn from a nullary PRNG.</span>
+-   <span class="signature">[`ternaryFactory( prng, dtypes, dtype )`][@stdlib/random/array/tools/ternary-factory]</span><span class="delimiter">: </span><span class="description">create a factory function for generating pseudorandom values drawn from a ternary PRNG.</span>
+-   <span class="signature">[`ternary( prng, dtypes, dtype )`][@stdlib/random/array/tools/ternary]</span><span class="delimiter">: </span><span class="description">constructor for creating arrays filled with pseudorandom values drawn from a ternary PRNG.</span>
+-   <span class="signature">[`unaryFactory( prng, dtypes, dtype )`][@stdlib/random/array/tools/unary-factory]</span><span class="delimiter">: </span><span class="description">create a factory function for generating pseudorandom values drawn from a unary PRNG.</span>
+-   <span class="signature">[`unary( prng, dtypes, dtype )`][@stdlib/random/array/tools/unary]</span><span class="delimiter">: </span><span class="description">constructor for creating arrays filled with pseudorandom values drawn from a unary PRNG.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -180,6 +192,24 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/random-array-tools/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/random-array-tools/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/random/array/tools/binary-factory]: https://github.com/stdlib-js/random-array-tools-binary-factory
+
+[@stdlib/random/array/tools/binary]: https://github.com/stdlib-js/random-array-tools-binary
+
+[@stdlib/random/array/tools/nullary]: https://github.com/stdlib-js/random-array-tools-nullary
+
+[@stdlib/random/array/tools/ternary-factory]: https://github.com/stdlib-js/random-array-tools-ternary-factory
+
+[@stdlib/random/array/tools/ternary]: https://github.com/stdlib-js/random-array-tools-ternary
+
+[@stdlib/random/array/tools/unary-factory]: https://github.com/stdlib-js/random-array-tools-unary-factory
+
+[@stdlib/random/array/tools/unary]: https://github.com/stdlib-js/random-array-tools-unary
+
+<!-- </toc-links> -->
 
 </section>
 
