@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-array-tools",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Pseudorandom number generator array creation function tools.",
   "license": "Apache-2.0",
   "author": {
