@@ -36,9 +36,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/random-array-tools-binary": "^0.2.1",
+    "@stdlib/random-array-tools-binary": "^0.2.2",
     "@stdlib/random-array-tools-binary-factory": "^0.2.2",
-    "@stdlib/random-array-tools-nullary": "^0.2.1",
+    "@stdlib/random-array-tools-nullary": "^0.2.2",
     "@stdlib/random-array-tools-ternary": "^0.2.2",
     "@stdlib/random-array-tools-ternary-factory": "^0.2.2",
     "@stdlib/random-array-tools-unary": "^0.2.2",
@@ -48,9 +48,9 @@
   "devDependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.2",
     "@stdlib/array-base-filled-by": "^0.2.2",
-    "@stdlib/array-ctors": "^0.2.1",
+    "@stdlib/array-ctors": "^0.3.0",
     "@stdlib/array-dtypes": "^0.3.0",
-    "@stdlib/array-zeros": "^0.2.1",
+    "@stdlib/array-zeros": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-collection": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",
