@@ -64,6 +64,7 @@
     "@stdlib/random-base-exponential": "^0.2.1",
     "@stdlib/random-base-geometric": "^0.2.1",
     "@stdlib/random-base-hypergeometric": "^0.2.1",
+    "@stdlib/random-base-improved-ziggurat": "^0.2.1",
     "@stdlib/random-base-normal": "^0.2.1",
     "@stdlib/random-base-triangular": "^0.2.1",
     "@stdlib/strided-base-binary": "^0.3.0",
