@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-07)
+## Unreleased (2024-09-29)
 
 <section class="packages">
 
@@ -33,6 +33,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`aad48ea`](https://github.com/stdlib-js/stdlib/commit/aad48eab1f19217854f4ffbfaed2a8be664b0f47) - **chore:** resolve lint errors _(by Philipp Burckhardt)_
 -   [`8e110d6`](https://github.com/stdlib-js/stdlib/commit/8e110d608afcc21dd633b7f1939f92ef7f3085e1) - **docs:** update examples for `random/array/tools` _(by Jenish Thapa, Philipp Burckhardt)_
 
 </details>
