@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-20)
+## Unreleased (2024-11-21)
 
 <section class="packages">
 
@@ -25,6 +25,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`83f2a61`](https://github.com/stdlib-js/stdlib/commit/83f2a613faa1661bdf1aebea1b4723044204f561) - remove unused imports
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="breaking-changes">
 
@@ -64,8 +74,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Jenish Thapa
 -   Philipp Burckhardt
 
@@ -79,6 +90,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`83f2a61`](https://github.com/stdlib-js/stdlib/commit/83f2a613faa1661bdf1aebea1b4723044204f561) - **fix:** remove unused imports _(by Athan Reines)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`aad48ea`](https://github.com/stdlib-js/stdlib/commit/aad48eab1f19217854f4ffbfaed2a8be664b0f47) - **chore:** resolve lint errors _(by Philipp Burckhardt)_
 -   [`8e110d6`](https://github.com/stdlib-js/stdlib/commit/8e110d608afcc21dd633b7f1939f92ef7f3085e1) - **docs:** update examples for `random/array/tools` _(by Jenish Thapa, Philipp Burckhardt)_
