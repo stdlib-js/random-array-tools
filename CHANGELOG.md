@@ -4,21 +4,11 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-array-tools-unreleased">
-
-#### [@stdlib/random/array/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools)
-
-<details>
+## Unreleased (2025-09-07)
 
 <section class="features">
 
-##### Features
+### Features
 
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 
@@ -28,35 +18,13 @@
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`83f2a61`](https://github.com/stdlib-js/stdlib/commit/83f2a613faa1661bdf1aebea1b4723044204f561) - remove unused imports
 
 </section>
 
 <!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
-
-    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -69,6 +37,27 @@
 </section>
 
 <!-- /.breaking-changes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`5c7040c`](https://github.com/stdlib-js/stdlib/commit/5c7040cb0423e40a639933fd4b156e5c63683136) - **docs:** fix method name in example code _(by Philipp Burckhardt)_
+-   [`54da286`](https://github.com/stdlib-js/stdlib/commit/54da28610f5ee6b2aa181addb1775d32f79043ee) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`08c640b`](https://github.com/stdlib-js/stdlib/commit/08c640bed04914d60a99a6da842e08cb57a0e4b8) - **test:** fix type bug _(by Athan Reines)_
+-   [`479c50a`](https://github.com/stdlib-js/stdlib/commit/479c50acd9a8ddaf50fc670f9eb6fa85f8de0bfb) - **test:** fix type bug _(by Athan Reines)_
+-   [`83f2a61`](https://github.com/stdlib-js/stdlib/commit/83f2a613faa1661bdf1aebea1b4723044204f561) - **fix:** remove unused imports _(by Athan Reines)_
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`aad48ea`](https://github.com/stdlib-js/stdlib/commit/aad48eab1f19217854f4ffbfaed2a8be664b0f47) - **chore:** resolve lint errors _(by Philipp Burckhardt)_
+-   [`8e110d6`](https://github.com/stdlib-js/stdlib/commit/8e110d608afcc21dd633b7f1939f92ef7f3085e1) - **docs:** update examples for `random/array/tools` _(by Jenish Thapa, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 <section class="contributors">
 
@@ -83,25 +72,6 @@ A total of 3 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.contributors -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`08c640b`](https://github.com/stdlib-js/stdlib/commit/08c640bed04914d60a99a6da842e08cb57a0e4b8) - **test:** fix type bug _(by Athan Reines)_
--   [`479c50a`](https://github.com/stdlib-js/stdlib/commit/479c50acd9a8ddaf50fc670f9eb6fa85f8de0bfb) - **test:** fix type bug _(by Athan Reines)_
--   [`83f2a61`](https://github.com/stdlib-js/stdlib/commit/83f2a613faa1661bdf1aebea1b4723044204f561) - **fix:** remove unused imports _(by Athan Reines)_
--   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
--   [`aad48ea`](https://github.com/stdlib-js/stdlib/commit/aad48eab1f19217854f4ffbfaed2a8be664b0f47) - **chore:** resolve lint errors _(by Philipp Burckhardt)_
--   [`8e110d6`](https://github.com/stdlib-js/stdlib/commit/8e110d608afcc21dd633b7f1939f92ef7f3085e1) - **docs:** update examples for `random/array/tools` _(by Jenish Thapa, Philipp Burckhardt)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
 
 </section>
 
@@ -121,47 +91,15 @@ No changes reported for this release.
 
 ## 0.2.1 (2024-02-25)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-array-tools-v0.2.1">
-
-#### [@stdlib/random/array/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb) - update namespace TypeScript declarations [(#1340)](https://github.com/stdlib-js/stdlib/pull/1340)
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): rename exported aliases
-
-    -   To migrate, users should consult the relevant namespace documentation and associated commits in order to determine which aliases have been renamed.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -174,18 +112,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -200,6 +126,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -219,166 +157,23 @@ No changes reported for this release.
 
 ## 0.1.0 (2024-01-31)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-array-tools-v0.1.0">
-
-#### [@stdlib/random/array/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`60d37a0`](https://github.com/stdlib-js/stdlib/commit/60d37a0be8a1507fb561267b794b83c14e61f093) - add `random/array/tools` namespace package
+-   [`f0d8be9`](https://github.com/stdlib-js/stdlib/commit/f0d8be9b07692f164dfed420b829ed76fed71562) - add `random/array/tools/ternary-factory`
+-   [`292f38d`](https://github.com/stdlib-js/stdlib/commit/292f38dd36220ad0e6aa869e72a79ff6d3715b88) - add `random/array/tools/ternary`
 -   [`7a98dfa`](https://github.com/stdlib-js/stdlib/commit/7a98dfa5293d960181b1bf4185aa65d9085e0f6f) - add `random/array/tools/binary-factory`
 -   [`84cf136`](https://github.com/stdlib-js/stdlib/commit/84cf13686d9559067a6c2d84ba10fb42a4b206d8) - add `random/array/tools/binary`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-tools-nullary-v0.1.0">
-
-#### [@stdlib/random/array/tools/nullary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools/nullary)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`adad88f`](https://github.com/stdlib-js/stdlib/commit/adad88f973ec800c62905d830608aac1903c8774) - refactor to support top-level output array default and currying PRNG parameters
 -   [`4ea8f4b`](https://github.com/stdlib-js/stdlib/commit/4ea8f4ba6ed0fee219b0ecc6118b2ff20cd1f047) - add `random/array/tools/nullary`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-tools-ternary-v0.1.0">
-
-#### [@stdlib/random/array/tools/ternary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools/ternary)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`292f38d`](https://github.com/stdlib-js/stdlib/commit/292f38dd36220ad0e6aa869e72a79ff6d3715b88) - add `random/array/tools/ternary`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-tools-ternary-factory-v0.1.0">
-
-#### [@stdlib/random/array/tools/ternary-factory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools/ternary-factory)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`f0d8be9`](https://github.com/stdlib-js/stdlib/commit/f0d8be9b07692f164dfed420b829ed76fed71562) - add `random/array/tools/ternary-factory`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-tools-unary-v0.1.0">
-
-#### [@stdlib/random/array/tools/unary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools/unary)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`a30b64a`](https://github.com/stdlib-js/stdlib/commit/a30b64ab2c2591d0cf662a31807d537ad0f70b05) - add `random/array/tools/unary-factory`
 -   [`9f1aad3`](https://github.com/stdlib-js/stdlib/commit/9f1aad375e069268f01e105f4543852e88d1cc25) - add `random/array/tools/unary`
 
 </section>
 
 <!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-tools-unary-factory-v0.1.0">
-
-#### [@stdlib/random/array/tools/unary-factory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools/unary-factory)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`adad88f`](https://github.com/stdlib-js/stdlib/commit/adad88f973ec800c62905d830608aac1903c8774) - refactor to support top-level output array default and currying PRNG parameters
--   [`a30b64a`](https://github.com/stdlib-js/stdlib/commit/a30b64ab2c2591d0cf662a31807d537ad0f70b05) - add `random/array/tools/unary-factory`
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`adad88f`](https://github.com/stdlib-js/stdlib/commit/adad88f973ec800c62905d830608aac1903c8774): update signatures to supporting currying
-
-    -   To migrate, users should (1) specify a default output array data
-        type when invoking the main export, instead of the returned function,
-        and (2) specify a PRNG parameter when invoking the returned function
-        in order to curry PRNG parameters.
-        Specifying an output array data type can still be done via the
-        returned function; however, instead of a positional argument, one
-        needs to provide an options object.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -397,19 +192,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -456,6 +238,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
