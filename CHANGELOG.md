@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-07)
+## Unreleased (2025-12-05)
 
 <section class="features">
 
 ### Features
 
+-   [`45bea12`](https://github.com/stdlib-js/stdlib/commit/45bea1241929b3311ee455d626ae771f6b19a85f) - update `random/array/tools` TypeScript declarations
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 
 </section>
@@ -44,6 +45,8 @@
 
 <details>
 
+-   [`226d13a`](https://github.com/stdlib-js/stdlib/commit/226d13a6a47597b12d0fa70d6cfb0b333f540a68) - **docs:** set doctest alias and update example code _(by Philipp Burckhardt)_
+-   [`45bea12`](https://github.com/stdlib-js/stdlib/commit/45bea1241929b3311ee455d626ae771f6b19a85f) - **feat:** update `random/array/tools` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`5c7040c`](https://github.com/stdlib-js/stdlib/commit/5c7040cb0423e40a639933fd4b156e5c63683136) - **docs:** fix method name in example code _(by Philipp Burckhardt)_
 -   [`54da286`](https://github.com/stdlib-js/stdlib/commit/54da28610f5ee6b2aa181addb1775d32f79043ee) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`08c640b`](https://github.com/stdlib-js/stdlib/commit/08c640bed04914d60a99a6da842e08cb57a0e4b8) - **test:** fix type bug _(by Athan Reines)_
