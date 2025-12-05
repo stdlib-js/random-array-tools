@@ -35,20 +35,32 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) array creation function tools.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-array-tools
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { binary, binaryFactory, nullary, ternary, ternaryFactory, unary, unaryFactory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@deno/mod.js';
+var ns = require( '@stdlib/random-array-tools' );
 ```
 
 #### ns
@@ -89,10 +101,10 @@ The namespace contains the following:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-exponential@deno/mod.js';
-import arcsine from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-arcsine@deno/mod.js';
-import randn from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-improved-ziggurat@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@deno/mod.js';
+var exponential = require( '@stdlib/random-base-exponential' );
+var arcsine = require( '@stdlib/random-base-arcsine' );
+var randn = require( '@stdlib/random-base-improved-ziggurat' );
+var ns = require( '@stdlib/random-array-tools' );
 
 // Create a binary PRNG array:
 var dtypes = [ 'float64', 'float32', 'generic' ];
@@ -134,7 +146,7 @@ x = rand.generate( 10 );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -199,19 +211,19 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/random/array/tools/binary-factory]: https://github.com/stdlib-js/random-array-tools-binary-factory/tree/deno
+[@stdlib/random/array/tools/binary-factory]: https://github.com/stdlib-js/random-array-tools-binary-factory
 
-[@stdlib/random/array/tools/binary]: https://github.com/stdlib-js/random-array-tools-binary/tree/deno
+[@stdlib/random/array/tools/binary]: https://github.com/stdlib-js/random-array-tools-binary
 
-[@stdlib/random/array/tools/nullary]: https://github.com/stdlib-js/random-array-tools-nullary/tree/deno
+[@stdlib/random/array/tools/nullary]: https://github.com/stdlib-js/random-array-tools-nullary
 
-[@stdlib/random/array/tools/ternary-factory]: https://github.com/stdlib-js/random-array-tools-ternary-factory/tree/deno
+[@stdlib/random/array/tools/ternary-factory]: https://github.com/stdlib-js/random-array-tools-ternary-factory
 
-[@stdlib/random/array/tools/ternary]: https://github.com/stdlib-js/random-array-tools-ternary/tree/deno
+[@stdlib/random/array/tools/ternary]: https://github.com/stdlib-js/random-array-tools-ternary
 
-[@stdlib/random/array/tools/unary-factory]: https://github.com/stdlib-js/random-array-tools-unary-factory/tree/deno
+[@stdlib/random/array/tools/unary-factory]: https://github.com/stdlib-js/random-array-tools-unary-factory
 
-[@stdlib/random/array/tools/unary]: https://github.com/stdlib-js/random-array-tools-unary/tree/deno
+[@stdlib/random/array/tools/unary]: https://github.com/stdlib-js/random-array-tools-unary
 
 <!-- </toc-links> -->
 
