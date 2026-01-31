@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { binary, binaryFactory, nullary, ternary, ternaryFactory, unary, unaryFactory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@esm/index.mjs';
+import { binary, binaryFactory, nullary, ternary, ternaryFactory, unary, unaryFactory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@v0.3.0-esm/index.mjs';
 ```
 
 #### ns
@@ -97,7 +97,7 @@ The namespace contains the following:
 import exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-exponential@esm/index.mjs';
 import arcsine from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-arcsine@esm/index.mjs';
 import randn from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-improved-ziggurat@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@v0.3.0-esm/index.mjs';
 
 // Create a binary PRNG array:
 var dtypes = [ 'float64', 'float32', 'generic' ];
