@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { binary, binaryFactory, nullary, ternary, ternaryFactory, unary, unaryFactory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@deno/mod.js';
+import { binary, binaryFactory, nullary, ternary, ternaryFactory, unary, unaryFactory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@v0.3.1-deno/mod.js';
 ```
 
 #### ns
@@ -92,7 +92,7 @@ The namespace contains the following:
 import exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-exponential@deno/mod.js';
 import arcsine from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-arcsine@deno/mod.js';
 import randn from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-improved-ziggurat@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-tools@v0.3.1-deno/mod.js';
 
 // Create a binary PRNG array:
 var dtypes = [ 'float64', 'float32', 'generic' ];
